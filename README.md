@@ -1,1 +1,1 @@
-##CSGO Fantasy App ##
+# CSGO Fantasy App
