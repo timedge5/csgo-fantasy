@@ -18,6 +18,7 @@ exports.getPlayers = (req, res) => {
           price: doc.data().price,
           totalPoints: doc.data().totalPoints,
           roundPoints: doc.data().roundPoints,
+          shortTeam: doc.data().shortTeam
         });
       });
       return res.json(players);
